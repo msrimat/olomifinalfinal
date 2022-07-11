@@ -1,0 +1,796 @@
+/*////////////////////////////////////////////////////// Responsive CSS Structure //////////////////////////////////////////////////////*/
+@media (min-width: 1200px) {
+    .footer {padding-left: 128px; padding-right: 128px;}    
+}
+
+
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1140px;
+    }
+
+}
+
+
+@media (min-width: 1600px) {
+    .meet-artist .section-title:after,
+    .auc-detail .section-title:after,
+    .artist-block .artist-detail .main-title:after {
+        width: 1430px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+}
+
+
+
+@media (min-width: 1400px) and (max-width: 1499px){
+    .work-slider .slick-next {
+        right: -110px;
+    }
+
+    .work-slider .slick-prev {
+        left: -110px;
+    }
+   
+
+}
+
+
+
+@media (min-width: 1300px) and (max-width: 1399px){
+    .main-title {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .section-title {
+        font-size: 34px;
+        line-height: 34px;
+    }
+
+    .auc-detail {
+        padding-left: 40px;
+    }
+
+    .work-slider .slick-next {
+        right: -110px;
+    }
+
+    .work-slider .slick-prev {
+        left: -110px;
+    }
+    .media-slider .slick-next { right: -57px; }
+    .media-slider .slick-prev { left: -57px; }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1299px){
+    .main-title {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .artist-block .artist-detail .main-title {
+        padding: 0 0 22px;
+    }
+
+    .section-title {
+        font-size: 34px;
+        line-height: 34px;
+    }
+
+    .auc-detail {
+        padding-left: 40px;
+    }
+
+    .work-slider .slick-arrow {
+        width: 64px;
+        height: 64px;
+    }
+    .work-slider .slick-next {
+        right: -60px;
+    }
+
+    .work-slider .slick-prev {
+        left: -60px;
+    }
+    .explore-work .container {
+        max-width: 950px;
+    }
+
+    .footer {
+        padding: 80px 128px 60px;
+    }
+
+
+    .auc-detail .date {
+        font-size: 24px;
+        line-height: 24px;
+        padding: 14px;
+        padding-right: 195px;
+    }
+
+    .portfolio-slider .slick-arrow {
+        width: 50px;
+        height: 50px;
+    }
+
+    .portfolio-slider .slick-next {
+        right: -140px;
+    }
+
+    .portfolio-slider .slick-prev {
+        left: -140px;
+    }
+    
+    .portfolio-slider .slick-arrow svg {
+        width: 36px;
+        height: auto;
+    }
+
+    .media-slider .slick-next { right: -51px; }
+    .media-slider .slick-prev { left: -51px; }
+
+}
+
+
+
+@media  (min-width: 992px) and (max-width: 1199px){
+    .main-title {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .artist-block .artist-detail .main-title {
+        padding: 0 0 22px;
+    }
+
+    .section-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .auc-detail {
+        padding-left: 20px;
+    }
+
+    .work-slider .slick-arrow svg {
+        width: 35px;
+    }
+
+    .work-slider .slick-arrow {
+        width: 54px;
+        height: 54px;
+    }
+    .work-slider .slick-next {
+        right: -50px;
+    }
+
+    .work-item {
+        padding: 0 9px;
+    }
+
+    .work-slider .slick-prev {
+        left: -50px;
+    }
+    .explore-work .container {
+        max-width: 950px;
+    }
+
+    .explore-work .section-title {
+        padding: 48px 0 26px;
+    }
+
+    .aucation-sec {
+        margin-top: 0;
+    }
+
+    .meet-artist {
+        padding: 50px 0;
+    }
+
+    .footer {
+        padding: 60px 70px 40px;
+    }
+
+
+    .auc-detail .date {
+        font-size: 24px;
+        line-height: 24px;
+        padding: 14px;
+        padding-right: 195px;
+    }
+    .g-item img {
+        max-height: 250px;
+    }
+    
+    .portfolio-slider .slick-arrow {
+        width: 50px;
+        height: 50px;
+    }
+    .portfolio-slider .slick-next {
+        right: -100px;
+    }
+    .portfolio-slider .slick-prev {
+        left: -100px;
+    }
+    .portfolio-slider .slick-arrow svg {
+        width: 36px;
+        height: auto;
+    }
+    .portfilo-detail-main,
+
+    .portfilo-main {
+        /* padding: 85px 0 80px; */
+        padding: 67px 0 80px;
+    }
+
+    .media-slider .slick-next { right: -45px; }
+    .media-slider .slick-prev { left: -45px; }
+
+}
+
+@media  (min-width: 768px) and (max-width: 991px){
+
+    .navbar-menu .menu-close {
+        top: 20px;
+        right: 20px;
+    }
+    .navbar-menu .menu-close svg {
+        width: 60px;
+        height: auto;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    
+    .main-title {
+        font-size: 38px;
+        line-height: 40px;
+    }
+
+    .artist-block .artist-detail .main-title {
+        padding: 0 0 22px;
+    }
+
+    .section-title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .auc-detail {
+        padding-left: 20px;
+    }
+
+    .work-slider .slick-arrow svg {
+        width: 30px;
+        height: auto;
+    }
+
+
+    .artist-block .artist-detail {
+        max-width: 360px;
+        padding-right: 15px;
+    }
+
+    .meet-artist .meet-detail {
+        margin-bottom:20px;
+        padding-right: 10px;
+    }
+
+    .aucation-sec .a-title {
+        margin-left: -130px;
+    }
+
+    .auc-detail .section-title:after {
+       width: 330px;
+    }
+
+    .work-slider .slick-arrow {
+        width: 50px;
+        height: 50px;
+    }
+    .work-slider .slick-next {
+        right: -50px;
+    }
+
+    .meet-artist .section-title {
+        padding: 0 0 22px;
+    }
+
+    .gallery-slider {
+        height: auto;
+        padding-top:60px;
+        padding: 0 80px;
+        height: auto;
+        padding-top: 60px;
+        display: block;
+    }
+
+    .g-item img {
+        max-height: 350px;
+    }
+    .gallery-modal .modal-close svg {
+        width: 60px;
+        height: auto;
+    }
+
+  
+    .gallery-modal .modal-close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    
+
+    .auc-detail .section-title {
+        padding: 15px;
+    }
+
+    .work-item {
+        padding: 0 9px;
+    }
+
+    .f-left .logo img {
+        width: 150px;
+    }
+
+    .work-slider .slick-prev {
+        left: -50px;
+    }
+    .explore-work .container {
+        max-width: 580px;
+    }
+
+    .portfolio-slider .slick-arrow svg {
+        width: 36px;
+        height: auto;
+    }
+    .portfolio-slider .slick-arrow {
+        width: 50px;
+        height: 50px;
+    }
+    .portfolio-slider .slick-next {
+        right: -60px;
+    }
+    .portfolio-slider .slick-prev {
+        left: -60px;
+    }
+
+    .portfilo-detail-main,
+    .portfilo-main {
+        /* padding: 85px 0 80px; */
+        padding: 65px 0 80px;
+    }
+    .explore-work .section-title {
+        padding: 48px 0 26px;
+    }
+
+    .aucation-sec {
+        margin-top: 0;
+    }
+
+    .meet-artist {
+        padding: 50px 0;
+    }
+
+    .footer {
+        padding: 40px;
+    }
+
+
+    .auc-detail .date {
+        font-size: 24px;
+        line-height: 24px;
+        padding: 14px;
+        padding-right: 195px;
+    }
+    .main-wrapper {
+        padding: 0 20px 0 90px;
+    }
+    .gallery-modal .modal-content {
+        height: auto;
+    }
+
+    .portfolio-slider {
+        max-width: 500px;
+    }
+    .project-list .row {
+        margin: 0 -12px;
+    }
+
+    .project-list [class*=col-] {
+        padding: 0 12px 24px;
+    } 
+   
+    .project-block p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .media-slider .slick-next { right: -30px; } 
+    .media-slider .slick-prev {
+        left: -30px;
+    }
+}
+
+
+@media  (min-width: 768px) {
+.sidebar .logo {
+    display: none;
+}
+}
+@media  (max-width: 767px){
+
+    body {
+        background: #F7F6F7;
+    }
+
+    .navbar-menu .menu-close {
+        top: 20px;
+        right: 20px;
+    }
+    .navbar-menu .menu-close svg {
+        width: 60px;
+        height: auto;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .sidebar {
+        width: 80px;
+        padding: 34px 28px;
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: auto;
+        left: 0;
+        right: 0;
+        bottom: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff;
+    }
+
+    .main-title {
+        font-size: 38px;
+        line-height: 40px;
+    }
+
+    .artist-block .artist-detail .main-title {
+        padding: 0 0 22px;
+        display: none;
+    }
+
+    .section-title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .auc-detail {
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    .work-slider .slick-arrow svg {
+        width: 30px;
+        height: auto;
+    }
+
+
+    .artist-block .artist-image img {
+        width: 300px;
+        margin-left: auto;
+        display: block;
+        margin-top: 20px;
+        margin-right: -20px;
+    }
+    .artist-block .artist-detail {
+        max-width: 360px;
+        padding-right: 15px;
+    }
+
+    .meet-artist .meet-detail {
+        margin-bottom:20px;
+        padding-right: 10px;
+    }
+
+    .aucation-sec .a-title {
+        margin-left: -130px;
+        margin-left: 0;
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 170px;
+        left: 90px;
+        display: flex;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 340px;
+    }
+
+
+    .auc-detail .section-title {
+        background: transparent;
+        padding: 0;
+        margin: 0;
+    }
+
+    .auc-detail .section-title:after {
+       width: 330px;
+    }
+
+    .work-slider .slick-arrow {
+        width: 36px;
+        height: 36px;
+    }
+    .work-slider .slick-next {
+        right: 0;
+    }
+
+    .meet-artist .section-title {
+        padding: 0 0 22px;
+    }
+
+    .auc-detail .section-title {
+        padding: 15px;
+        padding: 0;
+    }
+
+    .work-item {
+        padding: 0 9px;
+    }
+
+    .aucation-sec:after,
+    .auc-detail .section-title:after {
+        display: none;
+    }
+
+    .f-left .logo img {
+        width: 150px;
+        margin-bottom: 24px;
+    }
+
+    .explore-work {
+        padding: 0 0 40px;
+    }
+    .work-slider .slick-prev {
+        left: 0;
+    }
+    .explore-work .container {
+        max-width: 950px;
+    }
+
+    .footer p {
+        font-size: 12px;
+        line-height: 12px;
+        margin: 20px 0 0;
+    }
+
+    .footer .f-right .social ul li a img {
+        width: 20px;
+    }
+    .footer .f-right .social ul li a {
+        height: 36px;
+        width: 36px;
+    }
+
+    .work-slider {
+        padding: 0 64px;
+    }
+
+    .footer .f-right ul li a {
+        font-size: 14px;
+        line-height: 14px;
+        color: #F7F6F7;
+    }
+
+    .explore-work .section-title {
+        padding: 40px 0 20px;
+    }
+
+    .aucation-sec {
+        margin-top: 0;
+    }
+    .aucation-sec .auc-img {
+        position: relative;
+    }
+
+    .aucation-sec .auc-img img {
+        width: 225px;
+    }
+
+    .meet-artist .meet-img img {
+        width: 288px;
+        display: block;
+        margin-left: auto;
+        margin-bottom: 28px;
+        border-radius: 8px;
+    }
+    .meet-artist {
+        padding: 40px 0;
+    }
+    .meet-artist .row {
+        flex-direction: column-reverse;
+    }
+
+    .footer {
+        padding: 40px;
+        padding-bottom: 60px;
+    }
+    .footer .row:last-child {
+        flex-direction: column-reverse;
+    }
+
+
+    .auc-detail .date {
+        font-size: 24px;
+        line-height: 24px;
+        padding: 14px;
+        padding-right: 195px;
+        font-size: 16px;
+        line-height: 16px;
+        padding: 0;
+        background: transparent;
+    }
+    
+    .main-wrapper {
+        padding: 20px;
+    }
+
+    .artist-image img {
+        border-radius: 8px;
+    }
+
+    .gallery-modal .modal-content {
+        height: auto;
+    }
+
+    .gallery-slider {
+        height: auto;
+        display: block;
+        align-items: center;
+        padding: 110px 20px 60px;
+    }
+    .gallery-modal .modal-close svg {
+        width: 60px;
+    }
+
+    .gallery-slider .slick-prev {
+        right: auto;
+    }
+
+    .gallery-modal .modal-close {
+        right: 20px;
+        top: 20px;
+        top: 0px;
+    }
+
+    .gallery-slider .slick-next {
+        right: -10px;
+    }
+    .gallery-slider .slick-prev {
+        left: -10px;
+    }
+    .g-title {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 0 0 14px;
+    }
+
+    .page-title {
+        font-size: 20px;
+        line-height: 20px;
+        padding: 0;
+    }
+
+    .portfilo-detail-main,
+    .portfilo-main {
+        padding: 20px 0 0;
+    }
+
+    .portfolio-detail .detail h3 {
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0;
+    }
+
+    .portfolio-item {
+        padding: 0 0 20px;
+    }
+
+    .portfilo-detail-main .container {
+        padding: 0;
+    }
+
+    .about-detail .portfolio-image {
+        margin: 0;
+    }
+
+    .portfolio-image img {
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .project-main {
+        padding: 20px 0 40px;
+    }
+
+    .project-list .container {
+        padding: 0;
+    }
+
+    .project-list .row {
+        margin: 0 -12px;
+    }
+
+    .media-main {
+        padding: 20px 0 40px;
+    }
+
+    .media-slider .slick-prev {
+        left: 0;
+    }
+    .media-slider .slick-next {
+        right: 0;
+    }
+    .project-list [class*=col-] {
+        padding: 0 12px 24px;
+    } 
+    .media-slider .m-slide {
+        padding: 0;
+    }
+
+    .media-slider .slick-list {
+        margin: 0;
+    }
+
+    .media-main .container {
+        padding: 0;
+    }
+    .contact-main .container {
+        padding: 0;
+    }
+    .contact-main {
+        padding: 20px 0 40px;
+    }
+    .contact-detail .person {
+        padding: 30px 0;
+    }
+
+    .gallery-modal .modal-dialog {
+        padding: 16px 20px 68px;
+    }
+    .g-item img {
+        max-height: 260px;
+    }
+    .footer .f-right .social {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .footer .f_links {
+        width: 100%;
+    }
+
+    .portfilo-detail-main .portfolio-detail { max-width: 100%; }
+    .portfilo-detail-main .portfolio-image img {width: 100%;}
+    
+}
+
+
+
+@media (max-width:374px) {
+    .work-slider {
+        padding: 0 30px;
+    }
+}

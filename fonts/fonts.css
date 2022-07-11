@@ -1,0 +1,133 @@
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("fa-regular-400.eot");
+  src: url("fa-regular-400.eot?#iefix") format("embedded-opentype"), 
+       url("fa-regular-400.woff2") format("woff2"), 
+       url("fa-regular-400.woff") format("woff"), 
+       url("fa-regular-400.ttf") format("truetype"), 
+       url("fa-regular-400.svg#fontawesome") format("svg"); 
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400; }
+
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("fa-brands-400.eot");
+  src: url("fa-brands-400.eot?#iefix") format("embedded-opentype"), 
+       url("fa-brands-400.woff2") format("woff2"), 
+       url("fa-brands-400.woff") format("woff"), 
+       url("fa-brands-400.ttf") format("truetype"), 
+       url("fa-brands-400.svg#fontawesome") format("svg"); 
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("fa-solid-900.eot");
+  src: url("fa-solid-900.eot?#iefix") format("embedded-opentype"), 
+       url("fa-solid-900.woff2") format("woff2"), 
+       url("fa-solid-900.woff") format("woff"), 
+       url("fa-solid-900.ttf") format("truetype"), 
+       url("fa-solid-900.svg#fontawesome") format("svg"); 
+}
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; }
+
+
+
+  @font-face {
+    font-family: 'proximanovaregular';
+    src: url('proximanovaregular.eot');
+    src: url('proximanovaregular.eot') format('embedded-opentype'),
+      url('proximanovaregular.woff2') format('woff2'),
+      url('proximanovaregular.woff') format('woff'),
+      url('proximanovaregular.ttf') format('truetype'),
+      url('proximanovaregular.svg#proximanovaregular') format('svg');
+  }
+  
+  @font-face {
+    font-family: 'proximanovasemibold';
+    src: url('proximanovasemibold.eot');
+    src: url('proximanovasemibold.eot') format('embedded-opentype'),
+      url('proximanovasemibold.woff2') format('woff2'),
+      url('proximanovasemibold.woff') format('woff'),
+      url('proximanovasemibold.ttf') format('truetype'),
+      url('proximanovasemibold.svg#proximanovasemibold') format('svg');
+  }
+  
+  @font-face {
+      font-family: 'ProximaNova-Bold';
+      src: url('ProximaNova-Bold.eot');
+      src: url('ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+          url('ProximaNova-Bold.woff2') format('woff2'),
+          url('ProximaNova-Bold.woff') format('woff'),
+          url('ProximaNova-Bold.ttf') format('truetype'),
+          url('ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'ProximaNovaA-Light';
+      src: url('ProximaNovaA-Light.eot');
+      src: url('ProximaNovaA-Light.eot?#iefix') format('embedded-opentype'),
+          url('ProximaNovaA-Light.woff2') format('woff2'),
+          url('ProximaNovaA-Light.woff') format('woff'),
+          url('ProximaNovaA-Light.ttf') format('truetype'),
+          url('ProximaNovaA-Light.svg#ProximaNovaA-Light') format('svg');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+  }
+  
+
+  @font-face {
+    font-family: 'ProximaNovaExtrabold';
+    src: url('ProximaNovaExtrabold.eot');
+    src: url('ProximaNovaExtrabold.eot') format('embedded-opentype'),
+         url('ProximaNovaExtrabold.woff2') format('woff2'),
+         url('ProximaNovaExtrabold.woff') format('woff'),
+         url('ProximaNovaExtrabold.ttf') format('truetype'),
+         url('ProximaNovaExtrabold.svg#ProximaNovaExtrabold') format('svg');
+}
+
+@font-face {
+  font-family: 'ProximaNovaBlack';
+  src: url('ProximaNovaBlack.eot');
+  src: url('ProximaNovaBlack.eot') format('embedded-opentype'),
+       url('ProximaNovaBlack.woff2') format('woff2'),
+       url('ProximaNovaBlack.woff') format('woff'),
+       url('ProximaNovaBlack.ttf') format('truetype'),
+       url('ProximaNovaBlack.svg#ProximaNovaBlack') format('svg');
+}
+
+
+@font-face {
+  font-family: 'ProximaNovaMedium';
+  src: url('ProximaNovaMedium.eot');
+  src: url('ProximaNovaMedium.eot') format('embedded-opentype'),
+       url('ProximaNovaMedium.woff2') format('woff2'),
+       url('ProximaNovaMedium.woff') format('woff'),
+       url('ProximaNovaMedium.ttf') format('truetype'),
+       url('ProximaNovaMedium.svg#ProximaNovaMedium') format('svg');
+}
